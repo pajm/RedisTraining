@@ -1,0 +1,26 @@
+@RedisTraining.API_HostAddress = http://localhost:5110
+
+### Get product - first call (cache miss)
+GET {{RedisTraining.API_HostAddress}}/api/products/1
+Accept: application/json
+
+
+###
+
+### Get product - second call (cache hit)
+GET {{RedisTraining.API_HostAddress}}/api/products/1
+Accept: application/json
+
+
+###
+
+### Get another product
+GET {{RedisTraining.API_HostAddress}}/api/products/2
+Accept: application/json
+
+
+###
+
+### Get missing product
+GET {{RedisTraining.API_HostAddress}}/api/products/999
+Accept: application/json
