@@ -23,7 +23,6 @@ bin/
 *.obj
 *.pch
 *.idb
-*.md
 *.user
 *.suo
 *.iws
