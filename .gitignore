@@ -19,6 +19,8 @@ bin/
 # Solution files
 *.sln
 
+.githubignore
+
 # Temporary/compiled files
 *.obj
 *.pch
