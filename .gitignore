@@ -19,7 +19,8 @@ bin/
 # Solution files
 *.sln
 
-.githubignore
+.gitignore
+.slnx
 
 # Temporary/compiled files
 *.obj
