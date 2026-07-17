@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="RedisTraining.API/RedisTraining.API.csproj" />
-  <Project Path="RedisTraining.Application/RedisTraining.Application.csproj" />
-  <Project Path="RedisTraining.Infrastructure/RedisTraining.Infrastructure.csproj" />
-</Solution>
